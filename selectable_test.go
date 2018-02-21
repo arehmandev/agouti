@@ -1,11 +1,11 @@
 package agouti_test
 
 import (
+	. "github.com/arehmandev/agouti"
+	"github.com/arehmandev/agouti/api"
+	"github.com/arehmandev/agouti/packages/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/sclevine/agouti"
-	"github.com/sclevine/agouti/api"
-	"github.com/sclevine/agouti/internal/mocks"
 )
 
 var _ = Describe("Selectable", func() {

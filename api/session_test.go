@@ -3,11 +3,11 @@ package api_test
 import (
 	"errors"
 
+	. "github.com/arehmandev/agouti/api"
+	"github.com/arehmandev/agouti/api/internal/mocks"
+	. "github.com/arehmandev/agouti/packages/matchers"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/sclevine/agouti/api"
-	"github.com/sclevine/agouti/api/internal/mocks"
-	. "github.com/sclevine/agouti/internal/matchers"
 )
 
 var _ = Describe("Session", func() {

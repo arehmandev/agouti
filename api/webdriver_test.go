@@ -7,10 +7,10 @@ import (
 	"net/http/httptest"
 	"time"
 
+	. "github.com/arehmandev/agouti/api"
+	"github.com/arehmandev/agouti/api/internal/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/sclevine/agouti/api"
-	"github.com/sclevine/agouti/api/internal/mocks"
 )
 
 type roundTripperFunc func(*http.Request) (*http.Response, error)

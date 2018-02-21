@@ -4,11 +4,11 @@ import (
 	"errors"
 	"time"
 
+	"github.com/arehmandev/agouti"
+	. "github.com/arehmandev/agouti/matchers/internal"
+	"github.com/arehmandev/agouti/matchers/internal/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/sclevine/agouti"
-	. "github.com/sclevine/agouti/matchers/internal"
-	"github.com/sclevine/agouti/matchers/internal/mocks"
 )
 
 var _ = Describe("LogMatcher", func() {

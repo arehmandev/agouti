@@ -1,8 +1,8 @@
 package integration_test
 
 import (
+	"github.com/arehmandev/agouti"
 	. "github.com/onsi/ginkgo"
-	"github.com/sclevine/agouti"
 )
 
 var _ = Describe("integration tests", func() {

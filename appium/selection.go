@@ -1,6 +1,6 @@
 package appium
 
-import "github.com/sclevine/agouti/internal/element"
+import "github.com/arehmandev/agouti/packages/element"
 
 type elementRepository interface {
 	Get() ([]element.Element, error)
